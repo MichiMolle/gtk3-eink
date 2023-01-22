@@ -1,4 +1,4 @@
-# Gtk4 EInk
+# Gtk3 EInk
 css file for making gtk3 apps look and work better on eink devices. Still very much work in progress!
 
 ## Installation
