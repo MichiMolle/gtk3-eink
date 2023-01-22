@@ -1,0 +1,222 @@
+window{
+	background-color: #ffffff;
+	outline-color: #000000;
+	outline-offset: 0px;
+}
+
+decoration{
+	box-shadow: none;
+	border: 2px solid #000000;
+}
+
+scrolledwindow{
+	background-color: #ffffff;
+}
+
+headerbar{
+	background-color: #ffffff;
+	background-image: none;
+	border-bottom: 1px solid #000000;
+}
+
+headerbar  separator{
+	background-color: rgba(0,0,0,0);
+}
+
+separator{
+	background-color: #000000;
+}
+
+searchbar{
+	background-color: #ffffff;
+}
+
+switch{
+	background-color: #ffffff;
+	border: 2px solid #000000;
+	padding: 2px;
+}
+
+switch slider{
+	background-color: #000000;
+	background-image: none;
+	box-shadow: none;
+	border: 2px solid #000000;
+	min-width: 18px;
+	min-height: 18px;
+}
+
+switch:checked{
+	background-color: #000000;
+}
+
+switch:checked slider{
+	background-color: #ffffff;
+}
+
+popover contents{
+	box-shadow: none;
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+row{
+	border: 1px solid #ffffff;
+}
+
+row:hover{
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+row:selected{
+	border: 1px solid #000000;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+row:selected *{
+	color: #ffffff;
+}
+
+scale trough{
+	background-color: #ffffff;
+	border: 2px solid #000000;
+}
+
+scale highlight{
+	background-color: #000000;
+}
+
+scale slider{
+	box-shadow: none;
+	border: 2px solid #000000;
+}
+
+levelbar .filled{
+	background-color: #000000;
+	border: 2px solid #000000;
+}
+levelbar .empty{
+	background-color: #ffffff;
+	border: 2px solid #000000;
+}
+
+radio{
+	box-shadow: none;
+	border: 2px solid #000000;
+	min-height: 10px;
+	min-width: 10px;
+}
+
+radio:checked{
+	background-color: #000000;
+}
+
+.boxed-list, .card{
+	box-shadow: none;
+	border: 2px solid #000000;
+}
+
+.boxed-list row, .boxed-list row:hover{
+	border: none;
+	border-bottom: 1px solid #000000;
+}
+
+.boxed-list row:last-child{
+	border-bottom: none;
+}
+
+.titlebutton{
+	padding: 2px;
+	background-color: #ffffff;
+	background-image: none;
+	border: 2px solid #000000;
+}
+
+.titlebutton:hover{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.navigation-sidebar{
+	background-color: #ffffff;
+	color: #000000;
+	border-image-width: 2;
+}
+
+.navigation-sidebar * list{
+	border: none!important;
+}
+
+.view{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.horizontal{
+	color: #000000;
+}
+
+.search{
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+.image-button{
+	background-color: #ffffff;
+	background-image: none;
+	color: #000000;
+	border: 2px solid #000000;
+}
+
+.text-button{
+	background-color: #ffffff;
+	background-image: none;
+	color: #000000;
+	border: 2px solid #000000;
+	min-height: 20px;
+}
+
+.text-button:hover{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
+button{
+	border: 2px solid #000000;
+	background-color: #ffffff;
+	background-image: none;
+	color: #000000;
+}
+
+
+.linked button{
+	border-right: none;
+}
+
+.linked button:last-child{
+	border-right: 2px solid #000000;
+}
+
+.titlebar{
+	background-color: #ffffff!important;
+}
+
+.suggested-action{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+/* Nautilus */
+#NautilusPathBar{
+	border: 2px solid #000000;
+}
+
+#NautilusPathBar box{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
