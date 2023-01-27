@@ -67,7 +67,6 @@ row{
 row:hover{
 	background-color: #ffffff;
 	color: #000000;
-	border: 1px solid #000000;
 }
 
 row:selected{
@@ -211,12 +210,32 @@ button{
 	color: #ffffff;
 }
 
-/* Nautilus */
-#NautilusPathBar{
-	border: 2px solid #000000;
+
+/* app-specific css */
+/* foliate */
+
+.frame{
+	border: 1px solid #000000;
 }
 
-#NautilusPathBar box{
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
+viewport.frame{
+	padding: 10px;
+	padding-left: 0;
+	padding-right: 0;
 }
+
+viewswitcher button{
+	margin: 5px;
+	margin-left: 0;
+	padding: 3px;
+}
+
+viewswitcher button:checked{
+	background-color: #000000;
+}
+
+viewswitcher button:checked *{
+	color: #ffffff;
+}
+
+
