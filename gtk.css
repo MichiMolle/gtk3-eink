@@ -132,6 +132,8 @@ radio:checked{
 	background-color: #ffffff;
 	background-image: none;
 	border: 2px solid #000000;
+	min-height: 18px;
+	min-width: 18px;
 }
 
 .titlebutton:hover{
